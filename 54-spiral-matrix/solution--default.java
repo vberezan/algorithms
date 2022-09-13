@@ -43,6 +43,7 @@ class Solution {
                     {
                         if (i > border && (i - 1 != starti || j != startj)) i--; else {
                             j++;
+                            
                             direction = 1;
                             startj = j;
                             starti = i;
