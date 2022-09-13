@@ -5,7 +5,6 @@ class Solution {
         int i = 0;
         int j = 0;
         int direction = 1;
-
         int starti = 0;
         int startj = 0;
         int border = 1;
