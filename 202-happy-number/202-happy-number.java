@@ -1,4 +1,4 @@
-//name: solution - 1
+//name: solution - 12
 class Solution {
 
     public boolean isHappy(int n) {
