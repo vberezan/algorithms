@@ -1,4 +1,6 @@
 class Solution {
+    int x = 0;
+    
     public boolean isHappy(int n) {
         int slow = n;
         int fast = next(n);
