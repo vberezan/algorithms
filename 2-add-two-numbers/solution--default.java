@@ -35,7 +35,7 @@ class Solution {
                 if (l1 != null || l2 != null) iterator.next = new ListNode(0);
             } else {
                 // -- if you're here, it means your final sum is > 9 and you need to do the maths :)
-                // -- ex: if the sum is 21, keep the 1 in the current node and add the next node with 2 as initial val
+                // -- ex: if the sum is 21, keep 1 in the current node and add the next node with 2 as initial val
                 iterator.next = new ListNode(carry / 10);
                 iterator.val = carry % 10;                
             }
